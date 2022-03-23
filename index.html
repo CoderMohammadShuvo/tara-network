@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="shortcut icon" href="./assets/JJ 1.svg" type="image/x-icon" />
     <title>Tara Network</title>
   </head>
   <body>
     <div class="main">
       <!-- NAVBAR -->
-      <div class="navbar">
+      <div class="navbar" id="navbar">
         <div class="logo">
-          <img src="./assets/JJ 1.svg" alt="" />
-          <img src="./assets/Rectangle.svg" alt="" />
+          <img id="logo1" src="./assets/JJ 1.svg" alt="" />
+          <img id="logo2" src="./assets/Rectangle.svg" alt="" />
         </div>
-        <div class="navOption">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Features</a>
-          <a href="">Roadmap</a>
-          <a href="">Channel</a>
+        <div class="navOption" id="navOption">
+          <a href="#navbar">Home</a>
+          <a href="#about">About</a>
+          <a href="#features">Features</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#channel">Channel</a>
         </div>
+        <svg class="navIcon" id="bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+        <svg class="navIcon" id="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>
       </div>
 
       <!-- HEROSECTION -->
@@ -46,7 +49,14 @@
           <button class="buttons">Buy Token</button><button class="buttons">Whitepaper</button>
         </div>
         <div class="rightSection">
-          <img src="./assets/ilustrator.png" alt="" />
+          
+          <img id="shuvo1" src="./assets/1.png" alt="">
+          <img id="shuvo2" src="./assets/6.png" alt="">
+          <img id="shuvo3" src="./assets/5.png" alt="">
+          <img id="shuvo4" src="./assets/Frame.png" alt="">
+          <img id="shuvo5" src="./assets/4.png" alt="">
+          <img id="shuvo6" src="./assets/3.png" alt="">
+          <img id="shuvo7" src="./assets/7.png" alt="">
         </div>
       </div>
 
@@ -110,14 +120,14 @@
       </div>
 
       <!-- ABOUT US -->
-      <div class="aboutUs">
+      <div class="aboutUs" id="about">
         <div class="leftAbout">
           <h1>About Us</h1>
           <p>Cryptro is a decentralized platform that runs smart contracts: <br> applications that run exactly as programmed without any <br> possibility of downtime, censorship, fraud or third-party <br> interference.</p>
           <button class="buttons">Bscscan</button>
         </div>
         <div class="rightAbout">
-          <img src="./assets/Rectangle (1).png" alt="">
+          <img  src="./assets/Rectangle (1).png" alt="">
         </div>
       </div>
 
@@ -184,7 +194,7 @@
 
 
       <!-- ROADMAP -->
-      <div class="roadmap">
+      <div class="roadmap" id="roadmap">
         <h1>roadmap</h1>
         <div class="roadmapMain">
           <div class="roadmapFirst">
@@ -304,7 +314,7 @@
       </div>
 
       <!-- FEATURED -->
-      <div class="featured">
+      <div class="featured" id="features">
         <h1>WE ARE FEATURED IN</h1>
         <p>Many popular crypto & blockchain publishing</p>
         <div class="feturedline">
@@ -313,7 +323,7 @@
           <img src="./assets/featured (3).png" alt="">
           <img src="./assets/featured (4).png" alt="">
         </div>
-        <div class="feturedline">
+        <div class="feturedline" id="featured2">
           <img src="./assets/featured (5).png" alt="">
           <img src="./assets/featured (6).png" alt="">
           <img src="./assets/featured (7).png" alt="">
@@ -322,7 +332,7 @@
       </div>
 
 <!-- SUBSCRIBE -->
-      <div class="subscribe">
+      <div class="subscribe" id="channel">
         <h1>SUBSCRIBE</h1>
         <h4>Get in touch to our newslater</h4>
         <div class="form">
@@ -369,5 +379,37 @@
         <p id="copyright">©copyright 2022. all rights reserved</p>
       </div>
     </div>
+
+
+
+    <script>
+      var bar = document.getElementById("bar");
+      var close = document.getElementById("close");
+      bar.addEventListener("click", () =>{
+        document.getElementById("navOption").style.display = "block";
+        document.getElementById("navbar").style.width= "100%";
+        document.getElementById("navbar").style.height= "100vh";
+        document.getElementById("navbar").style.background= "#132E68";
+        document.getElementById("navbar").style.justifyContent= "start";
+        document.getElementById("navOption").style.display= "flex";
+        document.getElementById("navOption").style.flexDirection= "column";
+        document.getElementById("logo1").style.display = "none";
+        document.getElementById("logo2").style.display = "none";
+        document.getElementById("bar").style.display = "none";
+        document.getElementById("close").style.display = "block";
+        document.getElementById("navbar").style.alignItems= "center";
+      })
+      close.addEventListener("click", () =>{
+        document.getElementById("navOption").style.display = "none";
+        document.getElementById("navbar").style.width= "350px";
+        document.getElementById("navbar").style.height= "100px";
+        document.getElementById("navbar").style.background= "none";
+        document.getElementById("logo1").style.display = "block";
+        document.getElementById("logo2").style.display = "block";
+        document.getElementById("bar").style.display = "block";
+        document.getElementById("close").style.display = "none";
+        document.getElementById("navbar").style.alignItems= "start";
+      })
+    </script>
   </body>
 </html>

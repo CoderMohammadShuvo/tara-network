@@ -36,7 +36,9 @@ body {
   background-position: left 600px, left 2000px, left 2800px, left 4500px,
     left 6000px, left 7900px, left 8500px, left 8890px;
   background-repeat: no-repeat;
+  overflow:hidden;
 }
+
 .navbar {
   width: 1140px;
   height: 100px;
@@ -52,6 +54,67 @@ body {
   font-size: 14px;
   line-height: 21px;
   margin-left: 35px;
+}
+#shuvo1 {
+  margin-left: 80px;
+  position: absolute;
+  z-index: 2;
+  -webkit-animation: spin3 10s linear infinite;
+  -moz-animation: spin3 10s linear infinite;
+  animation: spin3 10s linear infinite;
+}
+#shuvo2 {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 130px;
+  z-index: 2;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+#shuvo3 {
+  z-index: 4;
+  position: absolute;
+  margin-left: 112px;
+  margin-top: 33px;
+  -webkit-animation: spin3 10s linear infinite;
+  -moz-animation: spin3 10s linear infinite;
+  animation: spin3 10s linear infinite;
+}
+#shuvo4 {
+  z-index: 3;
+  margin-left: 32px;
+  margin-top: 7px;
+}
+#shuvo5 {
+  position: absolute;
+  margin-top: -409px;
+  z-index: 5;
+  margin-left: 157px;
+  -webkit-animation: spin3 10s linear infinite;
+  -moz-animation: spin3 10s linear infinite;
+  animation: spin3 10s linear infinite;
+}
+#shuvo6 {
+  position: absolute;
+  margin-top: -350px;
+  z-index: 5;
+  margin-left: 217px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+#shuvo7 {
+  position: absolute;
+  margin-top: -317px;
+  margin-left: 250px;
+  -webkit-animation: spin3 10s linear infinite;
+  -moz-animation: spin3 10s linear infinite;
+  animation: spin3 10s linear infinite;
+}
+.navIcon {
+  height: 20px;
+  width: 20px;
 }
 
 /* HEROSECTION */
@@ -674,4 +737,79 @@ body {
 
   color: #3bcbff;
   margin-top: 30px;
+}
+
+#frame {
+  z-index: 3;
+  position: absolute;
+  mix-blend-mode: normal;
+}
+#frame2 {
+  position: absolute;
+}
+
+.rightSection {
+  width: 50%;
+}
+#secondImage {
+  position: absolute;
+  margin-left: 185px;
+  margin-top: 127px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+#firstImage {
+  position: absolute;
+  /* -webkit-animation: spin3 10s linear infinite;
+  -moz-animation: spin3 10s linear infinite;
+  animation: spin3 10s linear infinite; */
+}
+
+#thirdImage {
+  position: absolute;
+  margin-left: 218px;
+  margin-top: 160px;
+  -webkit-animation: spin3 10s linear infinite;
+  -moz-animation: spin3 10s linear infinite;
+  animation: spin3 10s linear infinite;
+}
+#fourthImage {
+  position: absolute;
+  margin-left: 45px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin3 {
+  0% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes spin3 {
+  0% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin3 {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
 }
